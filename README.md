@@ -13,4 +13,5 @@ To run the test,
 
     sbt test
 
-This example is based on Logback but the same idea can be used for Log4j as well.
+This example is based on Logback but the concept can be used for Log4j as well.
+
