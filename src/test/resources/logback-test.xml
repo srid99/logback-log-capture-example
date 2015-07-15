@@ -1,0 +1,11 @@
+<configuration>
+    <appender name="inMemoryAppender" class="in.srid.InMemoryAppender">
+        <encoder>
+            <pattern>%X{uniqueId} %c - %X{loggerMDC};%m%n</pattern>
+        </encoder>
+    </appender>
+
+    <root level="debug">
+        <appender-ref ref="inMemoryAppender"/>
+    </root>
+</configuration>
